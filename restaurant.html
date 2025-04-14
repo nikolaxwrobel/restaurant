@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dumplings_menu</title>
+    <style></style>
+</head>
+
+<body style="background-color: aquamarine;">
+    <header>
+        <h1 style="color: brown;">Dumplings</h1>
+        <nav><a href="#menu">menu</a><br><a href="#form">form</a></nav>
+    </header>
+    <section>
+        <h2 id="menu" style="color: blueviolet;">Menu</h2>
+        <article>
+            <h3>1. Ukrainian dumplings</h3>
+            <img src="https://staticsmaker.iplsc.com/smaker_production_2025_01_29/0d05fa531be5d735b84242b229ce8579-content.JPG"
+                alt="Ukrainian dumplings on a plate" width="250" height="300"><br>
+            <p style="display: inline-block; background-color: rgb(137, 137, 193);">Yummy ukrainian dumplings filled with potatoes and cheese <br> price: 20 zł</p>
+        </article>
+        <article>
+            <h3>2. Fried dumplings</h3>
+            <img src="https://mieszamwgarnku.pl/wp-content/uploads/2017/10/pierogi1.jpg"
+                alt="fried dumplings on a plate" width="250" height="300"><br>
+            <p style="display: inline-block; background-color: blanchedalmond;">Dumplings fried in hot oil with meat<br> price: 30 zł</p>
+        </article>
+        <article>
+            <h3>3. Sweet dumplings</h3>
+            <img src="https://www.canalpluskuchnia.pl/wideo/37385_warsztatysmakuwyjadacze/wyjadacze2/aniela/pierogizwisniami500.jpg"
+                alt="dumplings drizzled with red sauce on a plate" width="250" height="300"><br>
+            <p style="display: inline-block; background-color: darkolivegreen;">Dumplings with strawberries and fruit sauce<br> price: 25zł</p>
+        </article>
+    </section>
+    <section>
+        <h2 id="form" style="color: blueviolet;">Order</h2>
+        <label for="main_course">What would you like to order?</label><br>
+        <input type="number" name="main_course" id="main_course min="1" max="3"><br>
+        <label for="sides">Sides:</label><br>
+        <input type="checkbox" name="sides" id="side1">
+        <label for="side1">fried onion</label><br>
+        <input type="checkbox" name="sides" id="side2">
+        <label for="side2">fruit sauce</label><br>
+        <input type="checkbox" name="sides" id="side3">
+        <label for="side3">greens</label><br>
+
+        <label for="special_request">Special request:</label><br>
+        <input type="text" name="special_request"><br>
+        <input type="submit" value="Go to checkout">
+    </section>
+    <footer>
+        <p>Made with love by @nikolaxwrobel</p>
+    </footer>
+</body>
+
+</html>
